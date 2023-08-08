@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300;400;500&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -5,7 +7,10 @@
 body {
     margin: 0;
     position: relative;
+    font-family: Montserrat, sans-serif;
 }
+
+/* Style the landing page index.html */
 .background-image-container {
     position: absolute;
     top: 0;
@@ -16,8 +21,6 @@ body {
 }
 
 .main-container {
-    /* width: 100vw;
-    height: 100vh; */
     position: absolute;
     top: 0;
     left: 0;
@@ -26,19 +29,29 @@ body {
     background-color: rgba(69, 73, 82, 0.7);
     display: grid;
     grid-template-columns: 1fr;
-    /* flex-direction: column; */
-    /* justify-content: center; */
-    /* z-index: 1; */
 }
 
 .navbar {
     height: min-content;
     background-color: transparent;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.navbar-brand {
+    height: min-content;
+}
+
+.nav-item {
+    margin-right: 8px;
+    border-bottom: 1.5px solid #f1f1f1;
+}
+
+.nav-link:hover {
+    color: #f1f1f1;
 }
 
 .centrefold {
-    /* justify-self: center; */
-    /* justify-self: right; */
     width: 70%;
     height: min-content;
     margin: 0 auto;
@@ -48,7 +61,6 @@ body {
 }
 
 .intro {
-    /* align-self: center; */
     text-align: start;
     color: #f1f1f1;
     border-bottom: 1.5px solid rgb(0, 0, 0);
@@ -56,10 +68,124 @@ body {
     width: 60%;
     height: min-content;
 }
+.intro > h1 {
+    font-weight: bold;
+}
 
 @media (max-width: 600px) {
     .centrefold {
         flex-wrap: wrap;
         justify-content: center;
     }
+}
+
+@media (max-width: 950px) {
+    img {
+        height: 350px;
+    }
+
+    .centrefold {
+        margin-bottom: 16px;
+    }
+}
+
+/* Style the contact me page */
+#contact-me {
+    background-color: #666b78;
+}
+
+.contact-container {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-info {
+    width: 50%;
+    color: #f1f1f1;
+    letter-spacing: 1px;
+}
+
+.contact-info span {
+    display: block;
+    text-align: center;
+    padding: 4px 0;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+/* Style the about me page */
+#about-me {
+    background-color: #d2ddf7;
+}
+
+.light-bg-nav .nav-item {
+    border-bottom: 1px solid #000;
+}
+
+.light-bg-nav .nav-link:hover {
+    color: #000;
+}
+
+.about-me-container,
+.projects-container {
+    display: flex;
+    justify-content: center;
+}
+
+.about-me-info,
+.projects-info {
+    width: 60%;
+}
+
+.about-me-info > p:nth-of-type(1),
+.about-me-info > p:nth-of-type(3) {
+    border-right: 1px solid #666b78;
+}
+
+.about-me-info > p:nth-of-type(2) {
+    border-left: 1px solid #666b78;
+}
+
+/* Style the projects page */
+#projects {
+    background-color: #9ca4b8;
+}
+
+.projects-info > ul {
+    list-style-type: none;
+}
+
+.projects-info * {
+    text-align: right;
+}
+
+.projects-info a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn {
+    border: 1px solid #454952;
+    box-shadow: 0 2px 5px #454952;
+}
+
+.projects-info li {
+    margin-bottom: 12px;
+}
+
+.projects-info > ul > li:nth-child(2n + 1) {
+    /* Targets the odd li child elements in the unordered list */
+    border-left: 1px solid #666b78;
+}
+
+.projects-info > ul > li:nth-child(2n) {
+    /* Targets the even li child elements in the unordered list */
+    border-right: 1px solid #666b78;
 }
