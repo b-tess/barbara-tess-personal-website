@@ -29,6 +29,7 @@ body {
     background: #454952b3;
     display: grid;
     grid-template-columns: 1fr;
+    overflow-y: scroll;
 }
 
 .navbar {
