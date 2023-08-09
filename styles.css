@@ -23,11 +23,9 @@ body {
     top: 0;
     left: 0;
     min-height: 100vh;
-    background: #2f3a40b3;
+    background-color: #2f3a40b3;
     display: grid;
     grid-template-columns: 1fr;
-    background-color: #2f3a40b3;
-    /* overflow-y: scroll; */
 }
 
 .navbar {
@@ -43,11 +41,11 @@ body {
 
 .nav-item {
     margin-right: 8px;
-    border-bottom: 1.5px solid #d2ddf7;
+    border-bottom: 1.5px solid #f3f6fd;
 }
 
 .nav-link:hover {
-    color: #d2ddf7;
+    color: #f3f6fd;
 }
 
 .centrefold {
@@ -61,12 +59,13 @@ body {
 
 .intro {
     text-align: start;
-    color: #f1f1f1;
+    color: #f3f6fd;
     border-bottom: 1.5px solid rgb(0, 0, 0);
     border-top: 1.5px solid rgb(0, 0, 0);
     width: 60%;
     height: min-content;
 }
+
 .intro > h1 {
     font-weight: bold;
 }
@@ -94,7 +93,7 @@ body {
 
 /* Style the contact me page */
 #contact-me {
-    background-color: #666b78;
+    background-color: #738b98;
 }
 
 .contact-container {
@@ -106,7 +105,8 @@ body {
 
 .contact-info {
     width: 50%;
-    color: #f1f1f1;
+    color: #f3f6fd;
+    font-weight: bolder;
     letter-spacing: 1px;
 }
 
@@ -119,12 +119,12 @@ body {
 
 .contact-info a {
     text-decoration: none;
-    color: #f1f1f1;
+    color: #f3f6fd;
 }
 
 /* Style the about me page */
 #about-me {
-    background-color: #d2ddf7;
+    background-color: #cde3ec;
 }
 
 .light-bg-nav .nav-item {
@@ -164,7 +164,7 @@ body {
 
 /* Style the projects page */
 #projects {
-    background-color: #9ca4b8;
+    background-color: #b7d6e4;
 }
 
 .projects-info > ul {
