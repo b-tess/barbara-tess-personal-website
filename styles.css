@@ -26,7 +26,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(69, 73, 82, 0.7);
+    background-color: #454952b3;
     display: grid;
     grid-template-columns: 1fr;
 }
