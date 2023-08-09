@@ -15,8 +15,6 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    /* width: 100vw; */
-    /* min-height: 100vh; */
     background-image: url('./images/olga-thelavart-vS3idIiYxX0-unsplash.jpg');
 }
 
@@ -24,9 +22,8 @@ body {
     position: relative;
     top: 0;
     left: 0;
-    /* width: 100%; */
     min-height: 100vh;
-    /* background-color: #454952b3; */
+    background: #2f3a40b3;
     display: grid;
     grid-template-columns: 1fr;
     background-color: #2f3a40b3;
