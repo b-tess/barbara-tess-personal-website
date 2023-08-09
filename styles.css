@@ -81,11 +81,15 @@ body {
 
 @media (max-width: 950px) {
     img {
-        height: 350px;
+        height: 320px;
     }
 
     .centrefold {
         margin-bottom: 16px;
+    }
+
+    .intro p {
+        font-size: 14px;
     }
 }
 
@@ -112,7 +116,6 @@ body {
     text-align: center;
     padding: 4px 0;
     margin-bottom: 10px;
-    border-bottom: 1px solid #000;
 }
 
 .contact-info a {
@@ -153,6 +156,13 @@ body {
     border-left: 1px solid #666b78;
 }
 
+.about-me-info > span {
+    display: block;
+    text-align: center;
+    margin-bottom: 16px;
+    color: #666b78;
+}
+
 /* Style the projects page */
 #projects {
     background-color: #9ca4b8;
@@ -178,6 +188,10 @@ body {
 
 .projects-info li {
     margin-bottom: 12px;
+}
+
+.projects-info li > a:first-child {
+    font-weight: bolder;
 }
 
 .projects-info > ul > li:nth-child(2n + 1) {
