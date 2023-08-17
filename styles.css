@@ -159,6 +159,10 @@ body {
     color: #666b78;
 }
 
+.about-me-info em {
+    font-weight: bold;
+}
+
 /* Style the projects page */
 #projects {
     background-color: #b7d6e4;
