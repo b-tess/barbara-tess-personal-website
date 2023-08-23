@@ -20,7 +20,7 @@ body {
 
 .main-container {
     min-height: 100vh;
-    background-color: #2f3a40b3;
+    background-color: rgba(93, 138, 168, 0.584);
     display: grid;
     grid-template-columns: 1fr;
 }
@@ -56,9 +56,11 @@ body {
 
 .intro {
     text-align: start;
-    color: #f3f6fd;
-    border-bottom: 1.5px solid rgb(0, 0, 0);
-    border-top: 1.5px solid rgb(0, 0, 0);
+    color: #ffffff;
+    text-shadow: 2px 2px 2px #5d8aa8;
+    /* font-weight: 500; */
+    border-bottom: 1.5px solid #000000;
+    border-top: 1.5px solid #000000;
     width: 60%;
     height: min-content;
 }
